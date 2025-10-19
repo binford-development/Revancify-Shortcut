@@ -1,6 +1,6 @@
 # Shortcut for Revancify
 
-Simple shortcut to get started with Revancify.
+A native Android app that launches Revancify in Termux.
 
 Supported only on Android 8.0+.
 
