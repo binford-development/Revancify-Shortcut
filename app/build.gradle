@@ -18,6 +18,22 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    flavorDimensions "mode"
+
+    productFlavors {
+        standard {
+            dimension "mode"
+            buildConfigField "String", "REVANCIFY_GITHUB",
+                "\"https://github.com/binford-development/Revancify-Shortcut/blob/main/Revancify-Original/README.md#installation\""
+        }
+
+        shizuku {
+            dimension "mode"
+            buildConfigField "String", "REVANCIFY_GITHUB",
+                "\"https://github.com/binford-development/Revancify-Shortcut/blob/main/Revancify-Shizuku/README.md#installation\""
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled true
