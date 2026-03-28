@@ -1,8 +1,6 @@
 # Revancify 🛠️
 ### A TUI wrapper for Revanced CLI with amazing features.
 
-[![TelegramChannel](https://img.shields.io/badge/Telegram_Support_Chat-2CA5E0?style=for-the-badge&logo=Telegram&logoColor=FFFFFF)](https://t.me/decipher_projects)
-
 ## Termux
 
 <table>
@@ -31,7 +29,7 @@
 2. Open Termux.
 3. Copy and paste this command.
 ```
-curl -sL https://github.com/decipher3114/Revancify/raw/refs/heads/main/install.sh | bash
+curl -sL https://github.com/binford-development/Revancify-Shortcut/raw/refs/heads/main/Revancify-Original/install.sh | bash
 ```
 
 ## Usage
@@ -42,3 +40,4 @@ Or use with arguments. Check them with `revancify -h`
 # Thanks & Credits
 [Revanced](https://github.com/revanced)  
 [Revanced Extended](https://github.com/inotia00)  
+[Decipher3114](https://github.com/decipher3114)  
